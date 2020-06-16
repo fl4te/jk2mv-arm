@@ -8,7 +8,6 @@ cd "$BUILD_DIR"
 
 cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release \
 	  -DUseInternalPNG=OFF -DUseInternalJPEG=OFF -DUseInternalZLIB=OFF -DUseInternalMiniZip=OFF \
-	  -DBuildPortableVersion=OFF ../..
+	  -DBuildPortableVersion=ON ../..
 
 make
-sudo make install

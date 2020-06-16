@@ -109,7 +109,7 @@
 #define idx64	0
 #endif
 
-#if defined(ARCH_ARM32) && !defined(Q3_VM)
+#if defined(ARCH_ARM) && !defined(Q3_VM)
 #define idarm32	1
 #else
 #define idarm32	0

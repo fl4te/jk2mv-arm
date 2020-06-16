@@ -181,6 +181,11 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 #define PATH_SEP '/'
 
+#ifdef __arm__
+#define ARCH_STRING "arm"
+#define Q3_LITTLE_ENDIAN
+#endif
+
 #ifdef __ppc__
 #define ARCH_STRING "ppc"
 #define Q3_BIG_ENDIAN

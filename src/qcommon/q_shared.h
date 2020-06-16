@@ -69,7 +69,7 @@
 #define idx64	0
 #endif
 
-#if defined(ARCH_ARM32) && !defined __LCC__
+#if defined(ARCH_ARM) && !defined __LCC__
 #define idarm32	1
 #else
 #define idarm32	0
